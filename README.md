@@ -84,6 +84,6 @@ Los wireframes incluirán:
 
 ## Autor
 
-Nombre: TU NOMBRE  
+Nombre: Marian Paola Cuadrado Parra  
 Materia: Desarrollo de Aplicaciones Web  
 Fecha: Mayo 2026
