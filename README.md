@@ -1,91 +1,83 @@
-Sonic Nexus
+# Sonic Nexus
 
-Descripción del Proyecto
+## Descripción del proyecto
 
-Sonic Nexus es una aplicación Android desarrollada en Java que tiene como objetivo proporcionar información sobre los personajes del universo de Sonic the Hedgehog. La aplicación permitirá explorar personajes, consultar sus características y, en futuras versiones, acceder a información más detallada sobre cada uno.
-Estado Actual del Proyecto
+Sonic Nexus es una aplicación móvil para Android desarrollada en Java utilizando Android Studio. El propósito de la aplicación es presentar información sobre personajes del universo de Sonic the Hedgehog mediante una interfaz organizada y fácil de usar.
 
-Durante este módulo se implementó la primera versión funcional de la interfaz principal. La aplicación ya muestra una lista dinámica de personajes utilizando RecyclerView, cargando información desde un repositorio de datos y mostrando imágenes asociadas a cada personaje.
+Actualmente la aplicación muestra una lista de personajes utilizando RecyclerView, incluyendo nombre, descripción e imagen de cada personaje.
 
-Funcionalidades Implementadas
+---
 
-Creación de la estructura básica del proyecto Android.
-Implementación del modelo Character.
-Creación del repositorio CharacterRepository para almacenar datos de personajes.
-Implementación de RecyclerView para mostrar listas dinámicas.
-Desarrollo del adaptador CharacterAdapter.
-Visualización de nombres y descripciones de personajes.
-Integración de imágenes para cada personaje.
-Configuración de la pantalla principal (MainActivity).
-Pruebas de ejecución exitosas en emulador Android.
+## Tecnologías utilizadas
 
-Tecnologías Utilizadas
-Java
-Android Studio
-RecyclerView
-XML Layouts
-GitHub
-Registro de Cambios (Changelog)
+- Java
+- Android Studio
+- RecyclerView
+- Git
+- GitHub
 
-Módulo 4
-Definición de la idea principal del proyecto.
-Planeación inicial de la aplicación.
-Identificación de funcionalidades principales.
-Diseño preliminar de la estructura de datos.
+---
 
-Módulo 5
-Creación del proyecto Android Studio.
-Desarrollo de la clase Character.
-Creación de CharacterRepository.
-Configuración inicial de MainActivity.
-Implementación básica de RecyclerView.
+## Funcionalidades actuales
 
-Módulo 6 (Actual)
-Desarrollo completo de CharacterAdapter.
-Creación del layout item_character.xml.
-Integración de imágenes de Sonic, Tails, Knuckles y Shadow.
-Configuración de RecyclerView para mostrar imágenes y texto.
-Corrección de errores de referencias de recursos (R.drawable).
-Pruebas exitosas en emulador Android.
-Primera versión funcional de la aplicación.
-Cambios Actuales
-Lista dinámica de personajes completamente funcional.
-Imágenes asociadas correctamente a cada personaje.
-Visualización correcta de datos desde el repositorio.
-Cambios Futuros
-Mejorar el diseño visual de la lista de personajes.
-Implementar pantalla de detalle para cada personaje.
-Agregar más personajes y categorías.
-Incorporar almacenamiento local con Room Database.
-Añadir sistema de búsqueda y filtrado.
-Publicar versiones estables en GitHub Classroom.
+- Visualización de personajes de Sonic.
+- Lista dinámica mediante RecyclerView.
+- Modelo de datos para personajes.
+- Repositorio de personajes.
+- Adaptador personalizado.
+- Imágenes de personajes.
+- Integración con Git y GitHub.
+
+---
+
+## Estructura del proyecto
+
+- models
+  - Character.java
+
+- data
+  - CharacterRepository.java
+
+- adapters
+  - CharacterAdapter.java
+
+- res/layout
+  - activity_main.xml
+  - item_character.xml
+
+---
 
 ## Changelog
 
 ### Módulo 4
-- Creación inicial del proyecto Android Studio.
-- Definición de la estructura de paquetes.
-- Creación del modelo Character.
+- Creación inicial del proyecto.
+- Definición de la idea de la aplicación.
+- Organización inicial de paquetes.
 
 ### Módulo 5
 - Implementación de RecyclerView.
 - Creación de CharacterAdapter.
 - Creación de CharacterRepository.
-- Visualización de personajes y descripciones.
+- Visualización de nombres y descripciones.
 
 ### Módulo 6
-- Integración de imágenes para cada personaje.
-- Importación de recursos gráficos (Sonic, Tails, Knuckles y Shadow).
-- Actualización del modelo Character para soportar imágenes.
-- Actualización de CharacterAdapter para mostrar imágenes.
+- Integración de imágenes para los personajes.
+- Actualización del modelo Character.
+- Configuración del ImageView.
+- Implementación de recursos gráficos.
 - Publicación del proyecto en GitHub.
+- Creación del repositorio SonicNexus2.
 
-### Próximos cambios
-- Pantalla de detalles de personajes.
-- Sistema de navegación entre pantallas.
-- Diseño visual mejorado.
-- Integración de información adicional sobre personajes.
+### Cambios futuros
 
+- Pantalla de detalle de personaje.
+- Navegación entre pantallas.
+- Mejoras visuales de la interfaz.
+- Información ampliada sobre personajes.
+- Sistema de búsqueda y filtrado.
 
-Autor
-Marian Cuadrado
+---
+
+## Repositorio GitHub
+
+https://github.com/Cuadradoishere/SonicNexus2
