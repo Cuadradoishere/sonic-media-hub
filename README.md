@@ -60,5 +60,32 @@ Incorporar almacenamiento local con Room Database.
 Añadir sistema de búsqueda y filtrado.
 Publicar versiones estables en GitHub Classroom.
 
+## Changelog
+
+### Módulo 4
+- Creación inicial del proyecto Android Studio.
+- Definición de la estructura de paquetes.
+- Creación del modelo Character.
+
+### Módulo 5
+- Implementación de RecyclerView.
+- Creación de CharacterAdapter.
+- Creación de CharacterRepository.
+- Visualización de personajes y descripciones.
+
+### Módulo 6
+- Integración de imágenes para cada personaje.
+- Importación de recursos gráficos (Sonic, Tails, Knuckles y Shadow).
+- Actualización del modelo Character para soportar imágenes.
+- Actualización de CharacterAdapter para mostrar imágenes.
+- Publicación del proyecto en GitHub.
+
+### Próximos cambios
+- Pantalla de detalles de personajes.
+- Sistema de navegación entre pantallas.
+- Diseño visual mejorado.
+- Integración de información adicional sobre personajes.
+
+
 Autor
 Marian Cuadrado
